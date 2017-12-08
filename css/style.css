@@ -1,0 +1,25 @@
+body {
+  width: 100%;
+  margin: 0 auto; }
+
+button {
+  height: 40px;
+  width: 150px;
+  margin-bottom: 10px; }
+
+.test-jqwr {
+  height: 500px; }
+
+.container {
+  height: 100%; }
+
+.bg-red {
+  background: red; }
+
+#fade {
+  display: none; }
+
+#hidden {
+  display: none; }
+
+/*# sourceMappingURL=style.css.map */

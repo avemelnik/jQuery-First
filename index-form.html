@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<section class="section-form">
+    <div class="container">
+        <form class="d-flex flex-column">
+            <fieldset>
+                <legend>
+                    Field
+                </legend>
+                <div class="d-flex flex-column">
+                    <label for="b_day"><input id="b_day" type="text" name="b_day" class="press text"> Дата рождения</label>
+
+                    <label for="status"><input id="status" type="text" name="status" class="down text"> Семейное положение</label>
+
+                    <label for="social"><input id="social" type="text" name="social" class="up text"> Социальный статус</label>
+
+                    <label for="home"><input id="home" type="text" name="home" class="text"> Местожительство</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Select
+                </legend>
+                <select class="target">
+                    <option>Вариант 1</option>
+                    <option>Вариант 2</option>
+                    <option>Вариант 3</option>
+                </select>
+                <select class="target">
+                    <option>Вариант 4</option>
+                    <option>Вариант 5</option>
+                    <option>Вариант 6</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Check
+                </legend>
+                <div class="d-flex flex-column">
+                    <label class="target"><input type="checkbox" name="dream">Первый ответ</label>
+                    <label class="target"><input type="checkbox" name="walk" >Второй ответ</label>
+                    <label class="target"><input type="checkbox" name="fishing">Третий ответ</label>
+                    <label class="target"><input type="checkbox" name="play">Четвертый</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Radio
+                </legend>
+                <div class="d-flex flex-column">
+                    <label class="target"><input type="radio" name="book" value="few" class="target">0-10</label>
+                    <label class="target"><input type="radio" name="book" value="medium" class="target">11-20</label>
+                    <label class="target"><input type="radio" name="book" value="a_lot" class="target">21-50</label>
+                    <label class="target"><input type="radio" name="book" value="many" class="target">50+</label>
+                </div>
+            </fieldset>
+            <button type="submit" class="btn-success btn-send">Submit</button>
+        </form>
+
+    </div>
+</section>
+
+</body>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="js/script-form.js"></script>
+</html>

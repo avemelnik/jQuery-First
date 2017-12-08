@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>First page</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+
+<section class="test-jqwr">
+    <div class="container flex-column">
+        <div class="d-flex change-bg-color justify-content-between align-items-center">
+            <button type="button" class="btn btn-primary bg-btn-red">Change bg color</button>
+            <button type="button" class="btn btn-primary bg-btn-none">Remove bg color</button>
+            <button type="button" class="btn btn-primary bg-btn-toggle">Toggle</button>
+        </div>
+        <div class="d-flex justify-content-between align-items-center attr">
+            <button type="button" class="btn btn-primary bg-get-attr">Get attribute</button>
+            <button type="button" class="btn btn-primary bg-set-attr">Set attribute</button>
+        </div>
+        <div class="d-flex justify-content-between align-items-center alert-buttons">
+            <button type="button" class="btn btn-primary btn-alert">alert</button>
+            <button type="button" class="btn btn-primary btn--trigger-alert">Trigger alert</button>
+        </div>
+        <div class="clone">
+            <button type="button" class="btn btn-primary btn-clone">Clone button</button>
+        </div>
+        <div class="closest-parent">
+            <button type="button" class="btn btn-primary btn-closest">Closest elements</button>
+        </div>
+        <div class="arr-btn-text">
+            <button type="button" class="btn btn-primary btn-arr-text">Show all buttons</button>
+        </div>
+        <div class="find-element">
+            <button type="button" class="btn btn-primary btn-find">Find button</button>
+        </div>
+        <div class="faded-text">
+            <div>
+                <button type="button" class="btn btn-primary btn-fade-in-text">Show faded text</button>
+                <button type="button" class="btn btn-primary btn-about">About</button>
+                <button type="button" class="btn btn-primary btn-fade-out-text">Fade text</button>
+                <p id="fade">This text is faded</p>
+            </div>
+            <div>
+                <button type="button" class="btn btn-primary btn-hide-text">Hide text</button>
+                <p id="hide">This text is faded</p>
+            </div>
+            <div>
+                <button type="button" class="btn btn-primary btn-show-text">Show text</button>
+                <p id="hidden">This text is faded</p>
+            </div>
+            <div>
+                <p class="slide-up">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            </div>
+            <div>
+                <p class="slide-down">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            </div>
+            <div>
+                <button type="button" class="btn btn-primary btn-remove">Remove text</button>
+            </div>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+</body>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="js/script.js"></script>
+</html>
